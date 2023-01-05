@@ -4,6 +4,7 @@ The deconvolution for bulk RNAseq is to have a cell type fraction ratio, say dif
 Key packages :
 
 -- DWLS 
+
 -- DeconRNASeq
 
 The required input is the expression matrix of bulk RNAseq, and the single cell expression matrix with cell labels(characters with name of the cell types,Seurat RenameIdents function can assign the cell types based on the PanglaoDB/Cellmarkers database).
