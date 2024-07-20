@@ -12,3 +12,6 @@ The required input is the expression matrix of bulk RNAseq, and the single cell 
 1) build cell signature file by the funcion buildSignatureMatrixMAST DWLS R package. This will be genes x cell types matrix, with the value of the percentages of the cell types.
 
 2) Deconvolution bulk RNAseq by the function from DeconRNASeq R package. Output is sample x cell matrix, with the value of the percentages of the cell types.
+
+
+*** When using the reference scRNAseq data, make sure the labels and the counts columns are matched, which can use the match function to trim the unused cells. 
